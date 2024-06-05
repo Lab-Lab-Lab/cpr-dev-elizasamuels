@@ -1,9 +1,9 @@
 #!/bin/bash
 git remote add upstream https://github.com/Lab-Lab-Lab/cpr-dev.git
 echo "setup.sh 01" >> /var/log/cpr-dev.log
-git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend.git CPR-Music-Backend
+git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend-elizasamuels.git CPR-Music-Backend
 echo "setup.sh 02" >> /var/log/cpr-dev.log
-git clone https://github.com/Lab-Lab-Lab/CPR-Music.git CPR-Music
+git clone https://github.com/Lab-Lab-Lab/CPR-Music-elizasamuels.git CPR-Music
 echo "setup.sh 03" >> /var/log/cpr-dev.log
 cd CPR-Music-Backend 
 echo "setup.sh 04" >> /var/log/cpr-dev.log
